@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Topic
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/topic/master/_listings/data-gov/apis.md
 specificationVersion: "0.14"
 apis:
@@ -43,6 +43,17 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/topic/master/_listings/data-gov/topicstopic-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/topic/master/_listings/data-gov/topicstopic-get-openapi.md
+- name: Data.gov API - Put Topics Topic
+  x-api-slug: topicstopic-put
+  description: Update a given topic
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/data-gov-logo.png
+  humanURL: http://data.gov/
+  baseURL: https://catalog.data.gov//api/3/
+  tags: Federal Government, Federal Government, Federal Government   GSA, Stack Network,
+    Data Provider, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/topic/master/_listings/data-gov/topicstopic-put-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://danske.bank.api.gallery.streamdata.io
